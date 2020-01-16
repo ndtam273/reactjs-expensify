@@ -20,4 +20,4 @@ if (city && temperature) {
 //------------------Array destructuring--------------
 
 const address = ['1299 S jupiter street', 'philadenphia', 'pennysilia', '19147'];
-console.log(`You are in ${}`);
+
