@@ -1,6 +1,7 @@
-# Git commands
-git init - create a new git repo
-git status - view the change to your project code
+# Git Commands
+
+git init - Create a new git repo
+git status - View the changes to your project code
 git add - Add files to staging area
-git commit - create a new commit with files from staging area
-git log - view recent commits
+git commit - Creates a new commit with files from staging area
+git log - View recent commits
