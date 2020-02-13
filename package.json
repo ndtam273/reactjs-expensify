@@ -29,7 +29,7 @@
     "jest": "20.0.4",
     "live-server": "^1.2.0",
     "moment": "2.18.1",
-    "node-sass": "4.5.3",
+    "node-sass": "^4.13.1",
     "normalize.css": "7.0.0",
     "react": "15.6.1",
     "react-addons-shallow-compare": "15.6.0",
@@ -45,6 +45,17 @@
     "uuid": "3.1.0",
     "validator": "8.0.0",
     "webpack": "3.1.0",
-    "webpack-dev-server": "2.5.1"
-  }
+    "webpack-dev-server": "2.5.1",
+    "yarn": "^1.22.0"
+  },
+  "description": "git init - Create a new git repo git status - View the changes to your project code git add - Add files to staging area git commit - Creates a new commit with files from staging area git log - View recent commits",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndtam273/reactjs-expensify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ndtam273/reactjs-expensify/issues"
+  },
+  "homepage": "https://github.com/ndtam273/reactjs-expensify#readme"
 }
