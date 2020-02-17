@@ -26,6 +26,7 @@
     "moment": "2.18.1",
     "node-sass": "^4.13.r",
     "normalize.css": "7.0.0",
+    "numeral": "2.0.6",
     "react": "15.6.1",
     "react-addons-shallow-compare": "15.6.0",
     "react-dates": "12.3.0",
@@ -47,8 +48,8 @@
     "enzyme-to-json": "1.5.1",
     "jest": "20.0.4",
     "live-server": "^1.2.0",
-    "serve": "live-server public/",
     "react-test-renderer": "15.6.1",
+    "serve": "live-server public/",
     "webpack-dev-server": "2.5.1"
   },
   "repository": {
