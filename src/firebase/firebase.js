@@ -14,20 +14,46 @@ const firebaseConfig = {
 
   const database = firebase.database();
 
-  database.ref().set({
-     name: 'Tam Nguyen',
-     age: 30,
-     isSingle: true,
-     location: {
-         city: 'DaNang',
-         country: 'VietNam'
-     }
-  });
+//   database.ref().set({
+//      name: 'Tam Nguyen',
+//      age: 30,
+//      job: {
+//        title: '侍',
+//        company: '帝国'
+//      },
+//      stressLevel: 6,
+//      isSingle: true,
+//      location: {
+//          city: 'DaNang',
+//          country: 'VietNam'
+//      }
+//   }).then(() => {
+//       console.log('data has been saved!');
+//   }).catch((e) => {
+//       console.log('this failed', e);
+//   });
 
-//   database.ref().set('This is my data.');
-database.ref('age').set(32);
-database.ref('location/city').set('HaNoi');
-database.ref('attributes').set ( {
-    height: 165,
-    weight: 62
-});
+// //   database.ref().set('This is my data.');
+// database.ref('age').set(32);
+// database.ref('location/city').set('HaNoi');
+// database.ref('attributes').set ( {
+//     height: 165,
+//     weight: 62
+// }).then(() => {
+//     console.log('Second set call worked');
+// }).catch((e) => {
+//     console.log('This did not work', e);
+// });
+
+// database.ref('isSingle').remove().then(() => {
+//     console.log('Removed!');
+// }).catch((e) => {
+//     console.log('Remove did not workd', e);
+// });
+
+// database.ref().update({
+//    stressLevel: 9,
+//    'job/company': 'Kingdom',
+//    'location/city': 'Japan'
+    
+// });
