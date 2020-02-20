@@ -14,6 +14,23 @@ const firebaseConfig = {
 
   const database = firebase.database();
 
+  // database.ref()
+  //     .once('value')
+  //     .then((snapshot) => {
+  //       const val = snapshot.val();
+  //       console.log(val);
+  //     })
+  //     .catch(() => {
+  //       console.log('Error fetching data');
+  //     });
+database.ref().on('value', (snapshot) => {
+  console.log(snapshot.val());
+});
+
+setTimeout(() => {
+  database.ref('age').set(28);
+}, 3500);
+
 //   database.ref().set({
 //      name: 'Tam Nguyen',
 //      age: 30,
