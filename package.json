@@ -8,7 +8,7 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "test": "jest --config=jest.config.json",
+    "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build:prod"
   },
@@ -36,30 +36,21 @@
     "react-redux": "5.0.5",
     "react-router-dom": "4.1.2",
     "redux": "3.7.2",
+    "redux-mock-store": "1.2.3",
     "redux-thunk": "2.2.0",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "8.0.0",
-    "webpack": "3.1.0",
-    "yarn": "^1.22.0"
+    "webpack": "3.1.0"
   },
-  "description": "git init - Create a new git repo git status - View the changes to your project code git add - Add files to staging area git commit - Creates a new commit with files from staging area git log - View recent commits",
   "devDependencies": {
+    "cross-env": "5.0.5",
+    "dotenv": "4.0.0",
     "enzyme": "2.9.1",
     "enzyme-to-json": "1.5.1",
     "jest": "20.0.4",
-    "live-server": "^1.2.0",
     "react-test-renderer": "15.6.1",
-    "serve": "live-server public/",
     "webpack-dev-server": "2.5.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ndtam273/reactjs-expensify.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ndtam273/reactjs-expensify/issues"
-  },
-  "homepage": "https://github.com/ndtam273/reactjs-expensify#readme"
+  }
 }
