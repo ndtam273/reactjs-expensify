@@ -108,3 +108,7 @@ dist
 
 # bundle, css
 public/dist/
+
+# env 
+.env.test
+.env.development
